@@ -5,6 +5,12 @@ A simple Node.js package for debugging with a remotely dump utility, based on rd
 ## Installation
 
 1. Navigate to the root of your Node.js project.
+3. Add your RDUMP_PRIVATE_KEY environment variable
+
+```
+RDUMP_PRIVATE_KEY="Your private project Key"
+```
+
 2. Add the package
 
 ```bash
