@@ -18,5 +18,6 @@ Once installed, you can use the package as follows:
 ```js
 import { rdump } from 'rdump';
 
+const action = 'action';
 const data = { foo: 'bar', baz: [1, 2, 3] };
-rdump(data);
+rdump(action, data);
